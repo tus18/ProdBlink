@@ -6,7 +6,7 @@ from List import list_create
 class Fatigue:#数値から疲れを検出するクラス(画像は扱わない)
     def __init__(self):
         #音楽ファイル名
-        name='out'
+        name='music'
         #サブプロセスの呼び出しコマンド
         self.cmd = "python sub.py "+str(name)
 
