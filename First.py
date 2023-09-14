@@ -10,7 +10,7 @@ class UserSelection:
         self.is_new = False
 
     def get_users(self):
-        return [os.path.splitext(f)[0] for f in os.listdir("./user/") if os.path.isfile(os.path.join("./user/", f))]
+        return [os.path.splitext(f)[0] for f in os.listdir("./user/") if os.path.isfile(os.path.join("./user/", f)) and not f.endswith('.ignore')]
 
     def choose_user(self):
         window = tk.Tk()
