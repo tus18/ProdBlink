@@ -23,3 +23,9 @@ $ python main.py
 
 ## ライブラリのインストール
 OpenCV、dlib、scipyなどが入っていない場合インストールする
+```
+pip show opencv-python
+pip show dlib
+pip show scipy
+```
+dlibのインストールでエラーが発生する場合は，CMakeをインストール後再度試してみてください．
