@@ -27,5 +27,8 @@ OpenCV、dlib、scipyなどが入っていない場合インストールする
 pip show opencv-python
 pip show dlib
 pip show scipy
+pip install pillow
+pip install matplotlib
+pip install imutils
 ```
 dlibのインストールでエラーが発生する場合は，CMakeをインストール後再度試してみてください．
